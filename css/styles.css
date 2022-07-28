@@ -1,0 +1,33 @@
+/*---------- Banner img opacity--------- */
+.img-opacity{
+    filter: brightness(50%);
+}
+/* ------ Media query for banner captions ----- */
+@media screen and (max-width: 767px){
+     h1{
+        font-size: 20px;
+        margin-top: 65px;
+    }
+    .banner-p{
+        font-size: 12px;
+    }
+    .banner-button{
+        width: 120px;
+        height: 35px;
+        margin-bottom: 0%;
+    }
+}
+@media screen and (max-width: 406px){
+     h1{
+        font-size: 14px;
+        margin-top: 65px;
+    }
+    .banner-p{
+        font-size: 8px;
+    }
+    .banner-button{
+        width: 116px;
+        height: 33px;
+        margin-bottom: 0%;
+    }
+}
